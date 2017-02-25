@@ -20,5 +20,7 @@ lotA: grid_color.o main.o unit_test.o
 	
 doc: doxygen Doxyfile
 
+valgrind --leak-check=yes ./lotA
+
 clean:
 	rm grid_color.o main.o
