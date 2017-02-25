@@ -17,6 +17,8 @@ main.o: main.c  grid_color.h unit_test.h
 
 lotA: grid_color.o main.o unit_test.o
 	${CC} ${CFLAGS} $^ -o $@ ${LDFLAGS}
+	
+doc: doxygen Doxyfile
 
 clean:
 	rm grid_color.o main.o
