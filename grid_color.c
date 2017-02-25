@@ -58,7 +58,7 @@ grid init_grid(int n)
 			grille=allocate_grid(n);
 
 			int i,j;
-  	    	char couleurs[6]={'B','V','R','J','M','G'};
+  	    		char couleurs[6]={'B','V','R','J','M','G'};
 
 			for(i=0; i<n ; i++)
 			{
